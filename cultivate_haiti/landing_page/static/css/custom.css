@@ -1,0 +1,12 @@
+.bg-primary {
+    background-color: rgb(36, 36, 175) !important;
+}
+
+.bg-secondary {
+    background-color: rgb(206, 24, 24) !important;
+}
+
+.btn-primary {
+    background-color: rgb(36, 36, 175) !important;
+    border-color: rgb(36, 36, 175) !important;
+}
