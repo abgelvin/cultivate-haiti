@@ -1,12 +1,17 @@
-.bg-primary {
+/* .bg-primary {
     background-color: rgb(36, 36, 175) !important;
 }
 
 .bg-secondary {
-    background-color: rgb(206, 24, 24) !important;
+    background-color: rgb(185, 21, 21) !important;
 }
 
 .btn-primary {
     background-color: rgb(36, 36, 175) !important;
     border-color: rgb(36, 36, 175) !important;
 }
+
+.site-navbar .site-navigation .site-menu > li.active > a {
+    color: rgb(36, 36, 175) !important;
+    font-weight: bolder !important;
+} */
