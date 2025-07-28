@@ -46,7 +46,7 @@
       </div>
 
      
-      <div class="bg-primary py-3 top-bar shadow d-none d-md-block">
+      {% comment %} <div class="bg-primary py-3 top-bar shadow d-none d-md-block">
         <div class="container">
           <div class="row">
             <div class="col-md-6 text-md-left pl-0">
@@ -60,7 +60,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> {% endcomment %}
       <header class="site-navbar site-navbar-target bg-secondary shadow" role="banner">
 
         <div class="container">
@@ -68,7 +68,7 @@
             
 
             <div class="site-logo">
-              <a href="index.html" class="text-white">Cultivating Haiti</a>
+              <a href="{% url 'home' %}" class="text-white">Cultivating Haiti</a>
             </div>
 
 
