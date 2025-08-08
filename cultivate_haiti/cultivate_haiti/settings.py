@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-i&cmo^e%%s&b6_8i)m#lt=om#uoil1sh3a5!z1io#3%d9lje)m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.183.232.226']
+ALLOWED_HOSTS = ['54.183.232.226', 'localhost']
 
 
 # Application definition
@@ -118,8 +118,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = '/static/'
+# STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = '/home/ex2-user/cultivate-haiti/cultivate_haiti/staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
